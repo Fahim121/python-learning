@@ -10,7 +10,7 @@ if Length < 3:
   
    for i in elements:
       print "Element was: %s" % i
-elif Length>=3 and Length<6:
+elif Length>3 and Length<6:
    print str  
 elif Length>6:
   print "Your string is more than 6 characters!!"   
