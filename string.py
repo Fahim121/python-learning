@@ -5,11 +5,7 @@ str=raw_input(">")
 elements=[]
 Length=len(str)
 if Length < 3:
-   for index in range(len(str)-1, -1, -1):
-     elements.append(str[index])
-  
-   for i in elements:
-      print "Element was: %s" % i
+  print str[::-1]
 elif Length>3 and Length<6:
    print str  
 elif Length>6:
